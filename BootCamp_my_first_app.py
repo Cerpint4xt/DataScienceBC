@@ -1,3 +1,5 @@
 import streamlit as st
 
-st.write("Hello From The Mojix Bootcamp")
+
+st.image('./header.png')
+st.write("10 Cool Beginner Python Tricks That Will Make Your Life Easier")
