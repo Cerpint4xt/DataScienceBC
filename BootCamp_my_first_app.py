@@ -129,13 +129,15 @@ One of the first programs that we learn while learning about variables is
 swapping the values of two variables. In python you can achieve that
 with one line of code:    
 > Example  ''')
-    code19 = '''a = 100b = 200
+    code19 = '''a = 100
+b = 200
 a,b = b,a  
 print(f’a = ‘,a)  
 print(f’b = ‘,b)'''
     st.code(code19, language='python')
     st.write(output)
-    code20 = '''a = 200b = 100'''
+    code20 = '''a = 200
+b = 100'''
     st.code(code20, language='python')
     #Subtitulo Nro. 10
     st.markdown('''### **10. Use a password in your code**  
@@ -154,4 +156,4 @@ else:
 Password: **** [abdc]
 Wrong password'''
     st.code(code22, language='python')
-    st.write('''This process is also called list unpacking and you can apply this method for more than 2 variables also!  ''')
+    
