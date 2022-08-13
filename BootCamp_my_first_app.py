@@ -43,13 +43,30 @@ print(a)'''
     code6 = '''!dlrow olleh'''
     st.code(code2, language='python')
     #Subtitulo Nro. 4
-    st.markdown('''### **3. Reversing a string**  
-If you want to reverse a given string, you can do that with only one line of code using the negative indexing of the string.  
+    st.markdown('''### **4. Merging two dictionaries**  
+This amazing trick will help you merge two dictionaries with just 1 line of
+code. We just need to use ** in front of the name of the two
+dictionaries like below two merge them into a single dictionary:  
 > Example  ''')
-    code5 = '''str=”hello world!”
-a=str[::-1]
-print(a)'''
+    code5 = '''d1 = {“a”: 10, “b”:20}
+d2 = {“c”: 30, “d”:40}
+d3 = {**d1, **d2}
+print(d3)'''
     st.code(code5, language='python')
     st.write(output)
-    code6 = '''!dlrow olleh'''
-    st.code(code2, language='python')
+    code6 = '''{‘a’: 10, ‘b’: 20, ‘c’: 30, ‘d’: 40}'''
+    st.code(code6, language='python')
+    #Subtitulo Nro. 5
+    st.markdown('''### **5. The zip() function**  
+The **zip()** function in python can make your life a lot easier when working with
+lists and dictionaries. It is used to combine several lists of the same
+length.  
+> Example  ''')
+    code7 = '''colour = [“red”, “yellow”, “green”]
+fruits = [‘apple’, ‘banana’, ‘mango’]
+for colour, fruits in zip(colour, fruits):
+print(colour, fruits)'''
+    st.code(code7, language='python')
+    st.write(output)
+    code8 = '''red appleyellow bananagreen mango'''
+    st.code(code8, language='python')
