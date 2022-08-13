@@ -14,7 +14,7 @@ if (st.checkbox('I agree')):
     code1 = '''Mylist = [1,2,3]  
     if(l := len(mylist) > 2)  
     print(l)'''
-    st.code(code1, language='python')
+    st.code(code1)
     st.write('''> Output  ''')
     code2 = '''3'''
     st.code(code2, language='python')
