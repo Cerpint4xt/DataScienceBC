@@ -18,3 +18,9 @@ st.code('if(l := len(mylist)')
 st.code('print(l)')
 st.markdown('> Output')
 st.markdown('>')
+
+
+code = '''Mylist = [1,2,3] > 2)
+          if(l := len(mylist)
+          print(l)!")'''
+st.code(code, language='python')
