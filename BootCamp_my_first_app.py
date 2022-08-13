@@ -11,7 +11,9 @@ if (st.checkbox('I agree')):
     st.markdown('''The **`Walrus` or `:=`** operator is one of the latest additions to python 3.8. It is an assignment operator that lets you assign value to a variable within an expression like conditional statements, loops, etc.  ''')
     st.markdown('> Example')
     st.write('''If we want to check and print the length of a list:''')
-    code1 = '''Mylist = [1,2,3]if(l := len(mylist) > 2)print(l)'''
+    code1 = '''Mylist = [1,2,3]
+    if(l := len(mylist) > 2)
+    print(l)'''
     st.code(code1, language='python')
     st.write('''> Output  ''')
     code2 = '''3'''
