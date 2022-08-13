@@ -18,4 +18,11 @@ print(l)'''
     st.write('''> Output  ''')
     code2 = '''3'''
     st.code(code2, language='python')
-
+    st.markdown('''# **2. Splitting a string**  
+If you want to split the components of a string into a list you can do
+that easily using the split() function in python. This will make the
+string operations a lot easier!  
+> Example  ''')
+    code3 = '''string = “hello world”
+string.split()'''
+    st.code(code3, language='python')
