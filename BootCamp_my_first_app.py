@@ -26,3 +26,6 @@ string operations a lot easier!
     code3 = '''string = “hello world”
 string.split()'''
     st.code(code3, language='python')
+    st.write('''> Output  ''')
+    code4= '''[‘hello’, ‘world’]'''
+    st.code(code4, language='python')
